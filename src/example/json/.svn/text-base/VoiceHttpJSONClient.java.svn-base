@@ -1,0 +1,32 @@
+package example.voice.json;
+
+import java.util.ArrayList;
+import java.util.List;
+import com.dahantc.api.voice.json.HttpJSONClient;
+import com.dahantc.api.voice.json.VoiceReqData;
+
+public class VoiceHttpJSONClient {
+	private static String account = "dh9876";
+	private static String password = "9OSi51eI";
+
+	public static void main(String[] args) {
+		try {
+			//初始化客户端
+			HttpJSONClient client = new HttpJSONClient("http://voice.3tong.net");
+			
+			List<VoiceReqData> list = new ArrayList<VoiceReqData>();
+			list.add(new VoiceReqData("15711666133", "211456", "", "", 1, 0));//平台默认提示音 验证码短信
+			list.add(new VoiceReqData("15711666134", "211457", "dh9876tishiyin", "", 1, 0)); //自定义提示音 验证码短信
+			String submitResp = client.sendAuthCodeVoiceSms(account, password, list);
+			System.out.println(submitResp);
+			
+			String reportResp = client.getVoiceReport(account, password);
+			
+			System.out.println(reportResp);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

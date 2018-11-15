@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_131"/>
+	<classpathentry kind="lib" path="src/example/json/ctc-smscloud-voice-jsonhttp-resources.jar"/>
+	<classpathentry kind="lib" path="src/example/json/ctc-smscloud-voice-jsonhttp.jar"/>
+	<classpathentry kind="lib" path="src/example/xml/dahantc-voice-xml-api-resource.jar"/>
+	<classpathentry kind="lib" path="src/example/xml/dahantc-voice-xml-api.jar"/>
+	<classpathentry kind="lib" path="src/libs/commons-beanutils-core-1.8.0.jar"/>
+	<classpathentry kind="lib" path="src/libs/commons-codec-1.5.jar"/>
+	<classpathentry kind="lib" path="src/libs/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="src/libs/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="src/libs/commons-discovery-0.2.jar"/>
+	<classpathentry kind="lib" path="src/libs/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="src/libs/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="src/libs/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="src/libs/ezmorph-1.0.6.jar"/>
+	<classpathentry kind="lib" path="src/libs/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="src/libs/log4j-1.2.15.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
